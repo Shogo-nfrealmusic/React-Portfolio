@@ -11,6 +11,7 @@ npm run dev
 
 JavaScript、React、Next.js、TypeScriptの関係性とそれぞれの利点、書き方や特徴
 
+
 ### 1. **JavaScript**
 - **概要**: JavaScriptは、ウェブブラウザで動作するプログラミング言語です。フロントエンド開発で広く使用され、動的なユーザーインターフェースの作成に欠かせません。
 - **特徴**:
