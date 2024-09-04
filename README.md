@@ -5,6 +5,8 @@
 ```bash
 npx create-next-app@latest
 # start project
+npm run dev
+#local host
 ```
 
 
