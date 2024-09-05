@@ -25,7 +25,7 @@ function Hero() {
                 words='Thank you for visiting. Enjoy this special expedition.'
                 />
 
-                <p className='text-center'>
+                <p className='text-center tracking-widest text-xs'>
                     My name is SHOGO. 
                     This is my portfolio.
                 </p>

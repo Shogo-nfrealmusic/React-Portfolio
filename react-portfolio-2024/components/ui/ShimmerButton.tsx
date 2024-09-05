@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ShimmerButton({title, icon, position, handleClick}: {
+function ShimmerButton({title, icon, position}: {
   title: string; icon: React.ReactNode; position: string; handleClick?: () => void; otherClasses?: string;
 }) {
   return (
