@@ -21,11 +21,11 @@ function Hero() {
                 </h2>
 
                 <TextGenerateEffect 
-                className='text-center text-[40px] md:text-5xl lg:text-6xl' 
+                className='text-center text-[40px] md:text-5xl lg:text-6xl mb-5' 
                 words='Thank you for visiting. Enjoy this special expedition.'
                 />
 
-                <p className='text-center tracking-widest text-xs'>
+                <p className='text-center tracking-widest text-xs mb-5'>
                     My name is SHOGO. 
                     This is my portfolio.
                 </p>
