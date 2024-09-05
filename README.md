@@ -8,8 +8,12 @@ npx create-next-app@latest
 npm run dev
 #local host
 ```
+<ul>
+  <li>
+    <a href="https://ui.shadcn.com/docs/dark-mode/next" target="_blank">shadcn/ui Dark Mode</a>
 
-<p><a href="https://ui.shadcn.com/docs/dark-mode/next" target="_blank">shadcn/ui Dark Mode</a></p>
+  </li>
+</ul>
 
 The relationship between JavaScript, React, Next.js, and TypeScript, along with their advantages, syntax, and characteristics:
 
