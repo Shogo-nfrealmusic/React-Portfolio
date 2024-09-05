@@ -9,7 +9,7 @@ npm run dev
 #local host
 ```
 
-<p>shadcn/ui Dark Mode: <a href="https://ui.shadcn.com/docs/dark-mode/next" target="_blank"></a></p>
+<p><a href="https://ui.shadcn.com/docs/dark-mode/next" target="_blank">shadcn/ui Dark Mode</a></p>
 
 The relationship between JavaScript, React, Next.js, and TypeScript, along with their advantages, syntax, and characteristics:
 
