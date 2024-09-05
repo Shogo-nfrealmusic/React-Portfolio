@@ -1,7 +1,13 @@
+"use client"
+
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { desc, div } from "framer-motion/client";
 import GridGlobe from "./GridGlobe";
+import { useState } from "react";
+import animationData from "@/data/confetti.json";
+import Lottie from "react-lottie";
+import ShimmerButton from "./ShimmerButton";
+import { IoCopyOutline } from "react-icons/io5";
 
 export const BentoGrid = ({
   className,
@@ -41,6 +47,24 @@ export const BentoGridItem = ({
     titleClassName?: string;
     spareImg?: string;
 }) => {
+
+    const [copied, setCopied] = useState(false);
+
+    const defaultOptions = {
+        loop: copied,
+        autoplay: copied,
+        animationData: animationData,
+        rendererSettings: {
+          preserveAspectRatio: "xMidYMid slice",
+        },
+      };
+
+    const handleCopy = () => {
+        const text = "shogo.initeng0306@gmail.com";
+        navigator.clipboard.writeText(text);
+        setCopied(true);
+    };
+
   return (
     <div
       className={cn(
@@ -53,7 +77,7 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-        <div className={`${id === 6} && "flex justify-center h-full"`}>
+        <div className={`${id === 6 && "flex justify-center"} h-full`}>
             <div className="w-full h-full absolute">
                 {img && (
                     <img 
@@ -108,7 +132,7 @@ export const BentoGridItem = ({
               </div>
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                {["Python", "Django"].map((item, i) => (
+                {["Python", "Django", "New stack AI"].map((item, i) => (
                   <span
                     key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
@@ -120,6 +144,25 @@ export const BentoGridItem = ({
               </div>
             </div>
             )}
+
+            {id === 6 && (
+            <div className="mt-5 relative">
+              <div
+                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
+                  }`}
+              >
+                <Lottie options={defaultOptions} height={200} width={400} />
+              </div>
+
+              <ShimmerButton
+                title={copied ? "Email is Copied!" : "Copy my email address"}
+                icon={<IoCopyOutline />}
+                position="left"
+                handleClick={handleCopy}
+                otherClasses="!bg-[#161A31]"
+              />
+            </div>
+          )}
         </div>
     </div>
 </div>
