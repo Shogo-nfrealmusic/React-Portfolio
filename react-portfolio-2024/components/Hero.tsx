@@ -1,7 +1,7 @@
 import { FaLocationArrow } from 'react-icons/fa'
-import ShimmerButton from './ui/ShimmerButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import MagicButton from './MagicButton'
 
 function Hero() {
   return (
@@ -31,7 +31,7 @@ function Hero() {
                 </p>
 
                 <a href="#about">
-                    <ShimmerButton 
+                    <MagicButton 
                     title = "Visit my works"
                     icon={<FaLocationArrow />}
                     position='right'
