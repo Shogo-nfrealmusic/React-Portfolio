@@ -6,7 +6,7 @@ import GridGlobe from "./GridGlobe";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import Lottie from "react-lottie";
-import ShimmerButton from "./ShimmerButton";
+import MagicButton from "../MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 
 export const BentoGrid = ({
@@ -50,20 +50,21 @@ export const BentoGridItem = ({
 
     const [copied, setCopied] = useState(false);
 
-    const defaultOptions = {
-        loop: copied,
-        autoplay: copied,
-        animationData: animationData,
-        rendererSettings: {
-          preserveAspectRatio: "xMidYMid slice",
-        },
-      };
+  const defaultOptions = {
+    loop: copied,
+    autoplay: copied,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
 
-    const handleCopy = () => {
-        const text = "shogo.initeng0306@gmail.com";
-        navigator.clipboard.writeText(text);
-        setCopied(true);
-    };
+  const handleCopy = () => {
+    const text = "shogo.initeng0306@gmail.com";
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+  };
+
 
   return (
     <div
@@ -154,7 +155,7 @@ export const BentoGridItem = ({
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
-              <ShimmerButton
+              <MagicButton
                 title={copied ? "Email is Copied!" : "Copy my email address"}
                 icon={<IoCopyOutline />}
                 position="left"
