@@ -73,19 +73,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "My First Website",
+    des: "My first WebSite made with HTML, CSS, SCSS, JavaScript. 2024.03",
+    img: "/p1.jpg",
+    iconLists: ["/html.png", "/css.png", "/scss.png", "/js.png"],
+    link: "https://65f6beea0252f167013de6a7--glittery-rolypoly-d3df98.netlify.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Work out",
+    des: "I created the website because I like to go to the gym and do strength training. 2024.04",
+    img: "/p2.png",
+    iconLists: ["/html.png", "/css.png", "/scss.png", "/js.png"],
+    link: "https://65fbf5fd8eade19bb765bda7--soft-fudge-62898e.netlify.app/",
   },
   {
     id: 3,
@@ -97,11 +97,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Clone Apple Iphone 3D Website",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. 2024.07",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://shogo-nfrealmusic.github.io/apple_website/",
   },
 ];
 
