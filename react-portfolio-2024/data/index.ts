@@ -97,7 +97,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Clone Apple Iphone 3D Website",
+    title: "Clone Apple Iphone 15pro 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. 2024.07",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
