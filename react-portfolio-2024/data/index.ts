@@ -182,7 +182,7 @@ export const workExperience = [
   {
     id: 2,
     title: "CS experience",
-    desc: "Studied in Seattle, USA for 1 year as CS major, participated in a long-term internship in the U.S.",
+    desc: "Studied in Seattle, Washington State for 1 year as CS major",
     className: "md:col-span-2", 
     thumbnail: "/exp2.png",
   },
