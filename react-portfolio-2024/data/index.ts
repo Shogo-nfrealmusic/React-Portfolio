@@ -206,13 +206,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/Shogo-nfrealmusic"
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://x.com/f__billionaire"
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/shogo-kikuchi-19b792321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
   },
 ];
