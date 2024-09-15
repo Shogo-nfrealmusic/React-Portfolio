@@ -2,11 +2,11 @@
 import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { CanvasRevealEffect } from "@/components/ui/canvasRevealEffect";
+import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
 
 const Approach = () =>  {
   return (
-    <section className="w-full py-20">
+    <section className="w-full py-20" id="approach">
         <h1 className="heading">
             My <span className="text-purple">approach</span>
         </h1>
